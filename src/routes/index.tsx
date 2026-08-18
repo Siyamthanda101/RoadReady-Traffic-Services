@@ -32,6 +32,7 @@ function Home() {
             <span><strong className="block text-lg font-bold">RoadReady</strong><span className="block text-xs text-muted-foreground">Traffic Services</span></span>
           </Link>
           <div className="flex items-center gap-2">
+            <Button variant="ghost" asChild className="hidden sm:inline-flex"><Link to="/how-it-works">How it works</Link></Button>
             <Button variant="ghost" asChild><Link to="/auth" search={{ mode: "login" }}>Sign in</Link></Button>
             <Button asChild><Link to="/auth" search={{ mode: "register" }}>Create account</Link></Button>
           </div>
